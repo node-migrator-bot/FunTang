@@ -1,0 +1,37 @@
+---
+Path:
+  Base: ..
+  # Under base dir
+  Module: module
+  Library: library
+  Document: document
+  Tool: tool
+  Publish: publish
+  Config: config
+  
+# 'Path': the module's path under "$base/$module" dir.
+# 'Publish': will copy contents in module dir to 
+#            the specific dir under "$base/$publish" dir.
+#
+# Librarys and Documents can also be setted as below,
+#     and they can be published follow the description too.
+
+Modules:
+  Generator:
+      Path: generator
+      Publish: lib/funtang/generator
+
+  Parser:
+      Path: parser
+      Publish: lib/funtang/parser
+      
+  Compiler:
+      Path: compiler
+      Publish: bin
+      Binary: funtang.compiler.js
+      
+Configs:
+  Package: 
+      Path: package.json
+      Publish: package.json
+      
