@@ -1,7 +1,7 @@
 
 # FunTang : functional features added CoffeeScript 
 
-Make CoffeeScript more sweet !
+Make CoffeeScript sweeter !
 
 FunTang is a extension of CoffeScript language. It adds some functional features into CoffeeScript :
 
@@ -13,14 +13,13 @@ CoffeeScript had made a apt-to-use Curried feature by it's syntax of function :
 * Curried Function ( original CoffeeScript ) : `fn = (x)->(y)-> x * y`
 
 This project will focus on Immutable Variables and Lazy Evalution features at begining, and add other features 
-like Guard ( to replace `if...else`) ,or even Pattern Matching.
+like Guard ( to replace `if...else`) ,or even Pattern Matching later.
 
-__CAVEAT__ : FunTang compiling CoffeeScript scripts to Javascript like what the later one doing, 
-so the original Javascript can normally execute and 'link' them. But CoffeeScript codes will become incompatible with 
-other CoffeeScript codes if you use FunTang compiler to compile them. So the CoffeeScript codes must be compiled as a 
-independent part with the original CoffeeScript compiler, and 'link' them with FunTang part after they are all 
-compiled to Javascript.
-
+__CAVEAT__ :  FunTang compiler can't compile original CoffeeScripts, but it can generate normal CoffeeScripts,
+which can be compiled with other `.coffee` files. So if you want to use other CoffeeScript libraries 
+with FunTang codes, the only way is 'link' them after compiling. This problem may be fixed by adding some 
+foreign language features in the near future.
+ 
 ----
 
 ## About the name
