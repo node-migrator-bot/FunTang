@@ -3,7 +3,7 @@
 
 Make CoffeeScript sweeter !
 
-FunTang is a extension of CoffeScript language. It adds some functional features into CoffeeScript :
+FunTang is a little language that compiles into CoffeeScript. It adds some functional features into CoffeeScript :
 
 * Immutable Variables : by converting variables to functions, which receive nothing and return the value of the variable.
 * Lazy Evaluation : by converting applications to cached functions.
