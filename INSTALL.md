@@ -1,5 +1,11 @@
 
-## Preparation
+## Use NPM
+
+    npm install funtang.compiler
+
+## Build From Source Codes
+
+### Preparation
 
 ( Ubuntu )
 
@@ -21,7 +27,7 @@ You can manually export the variable if it did not appear in your environment:
 And add the line in your `bash.rc` to load it automatically.
 
 
-## Make
+### Make
 
 Enter this `make` command in your FunTang project directory.
 
@@ -30,7 +36,7 @@ Enter this `make` command in your FunTang project directory.
 It will publish the node.js module from source codes.
 
 
-## Test Installation
+### Test Installation
 
 In the `publish` directory, type 
 
@@ -45,7 +51,7 @@ And now you can type
 ... to see how to use this compiler.
 
 
-## Demo Codes
+### Demo Codes
 
 If you want to compile something, some sameple codes may listed below.
 I will try to add some unit test cases ASAP.
