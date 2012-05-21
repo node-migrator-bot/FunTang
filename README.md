@@ -22,6 +22,24 @@ foreign language features in the near future.
  
 ----
 
+## Full Featured Example
+
+This example show all features in the FunTang language.
+
+    ()->x y
+    ()->x y
+    (x)->(y)->x y
+    ()->x y x x y y y
+    gsf = (a,b,c,d,e)->()->x "yacc" 34.12313
+                          'led'  3
+                          'leet'
+    ff = ()->(x,y)->(z,w)->x 
+                           y 
+                           w
+
+The compiler can compile above codes into normal CoffeeScript.
+
+----
 ## About the name
 
 'Fang Tang' is a Chinese word means the 'sugar cube' in English.  And the misspell 'Fun' is for 'functional' ,

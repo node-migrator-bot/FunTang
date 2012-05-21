@@ -47,8 +47,8 @@ And now you can type
 
 ## Demo Codes
 
-If you want to compile something, some sameple codes may be listed below.
-I will try to add some unit test case ASAP.
+If you want to compile something, some sameple codes may listed below.
+I will try to add some unit test cases ASAP.
 
     ()->x y
     ()->x y
