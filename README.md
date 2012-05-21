@@ -40,6 +40,11 @@ This example show all features in the FunTang language.
 The compiler can compile above codes into normal CoffeeScript.
 
 ----
+## Installation
+
+See `INSTALL.md` to install.
+
+----
 ## About the name
 
 'Fang Tang' is a Chinese word means the 'sugar cube' in English.  And the misspell 'Fun' is for 'functional' ,
