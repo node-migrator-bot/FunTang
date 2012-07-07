@@ -52,7 +52,7 @@ task('module', [], function () {
                   + config.Modules[mname].Publish;
 
         // Clear old dir.
-        if(path.existsSync(ppath))
+        if(fs.existsSync(ppath))
         { 
             wrench.rmdirSyncRecursive(ppath);
         }
